@@ -1,0 +1,67 @@
+/* style.css - Finsight Dashboard Styling */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Buttons */
+a.button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-block;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}
+
+/* Warning message */
+.warning {
+    color: red;
+    text-align: center;
+}
+
+/* Remaining budget */
+.remaining {
+    color: green;
+    text-align: center;
+}
+
+/* Pie chart div */
+#piechart {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+}
